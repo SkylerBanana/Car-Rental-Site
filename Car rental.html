@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Electric Rentals</title>
+  </head>
+  <body class="home">
+    <header class="header">
+      <!--Nav Bar-->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Electric Rentals</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-between"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" id="hover"
+                  >How it works</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link active dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  id="hover"
+                >
+                  Car Locations
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Atlanta</a></li>
+                  <li><a class="dropdown-item" href="#">Chicago</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">New York</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" id="hover" href="#">Hosts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" id="hover" href="#">Community</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ms-auto">
+              <button class="btn" id="hover">Contact Us</button>
+            </ul>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <div id="container">
+      <h2 id="Heading">Search,Book,and<br></h2>
+        <h2 id="underHeading">Rent Easily</h2>
+      <p id="info">Get a car wherever and whenever you need it,
+        with your iOS or Android device</p>
+    </div>
+    <div class="car-container">
+    <img class="img-fluid" alt="Responsive image" src="Chevy Bolt.png" id="currentCar">
+  </div>
+    <!--Booking bar-->
+    <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-sm d-flex justify-content-center ">
+              <div id="cardId" class="card">
+                  <div class="card-body">
+                      <h3 class="card-title">Rent Your Ride</h3>
+                      <form class="row">
+                          <div class="col-sm d-flex justify-content-center">
+                              <div class="select-container">
+                              <select class="form-select" id="carType" required>
+                                  <option value="chevy-bolt">Chevy Bolt</option>
+                                  <option value="model-3">Tesla Model 3</option>
+                                  <option value="ioniq">hyundai ioniq</option>
+                                  <option value="ev-6">Kia Ev 6</option>
+                              </select>
+                              <select class="form-select" id="Pickup-Location" required>
+                               <option value="pick-up location">Pick-Up Location</option>
+                              </select>
+                              <select class="form-select" id="Pickup-date" required>
+                                <option value="pick-up-date">Pickup-Date</option>
+                              </select>
+                              <select class="form-select" id="Dropoff-location" required>
+                                <option value="dropoff-location">Drop-Off Location</option>
+                              </select>
+                              <select class="form-select" id="Dropoff-date" required>
+                                <option value="dropoff-date">Drop-Off Date</option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                      </form>
+                      <section class="aboutUs">
+                        <h4 class="about">About Us</h4>
+                      <div class="row">
+                        <div class="col">
+                        <div class="image-div">
+                          <i id="icon"  class="icon rounded-circle fa-regular fa-thumbs-up fa-2xl"></i>
+                        </div>
+                        <div class="text-div">
+                          <h6 id="textHeader">Test</h6>
+                          <p class="textClass">Banana Banana Banana Banana Banana Banana Banana Banana Banana Banana Banana</p>
+                        </div>
+                        </div>
+                        <div class="col">
+                          <div class="image-div">
+                            <i id="icon" class="icon rounded-circle fa-solid fa-award fa-2xl"></i>
+                          </div>
+                          <div class="text-div">
+                            <h6 id="textHeader">Test</h6>
+                            <p class="textClass">Banana Banana Banana Banana Banana Banana Banana Banana Banana Banana Banana</p>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="image-div">
+                            <i id="icon" class="icon rounded-circle fa-solid fa-map-location-dot fa-2xl"></i>
+                          </div>
+                          <div class="text-div">
+                            <h6 id="textHeader">Test</h6>
+                            <p class="textClass">Banana Banana Banana Banana Banana Banana Banana Banana Banana Banana Banana</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <div class="image-div">
+                            <i id="icon" class="icon rounded-circle fa-solid fa-baby-carriage fa-2xl"></i>
+                          </div>
+                        <div class="text-div">
+                          <h6 id="textHeader">Test</h6>
+                          <p class="textClass">Banana Banana Banana Banana Banana Banana Banana Banana Banana Banana Banana</p>
+                        </div>
+                        </div>
+                        <div class="col">
+                          <div class="image-div">
+                            <i id="icon" class="icon rounded-circle fa-solid fa-plug fa-2xl"></i>
+                          </div>
+                          <div class="text-div">
+                            <h6 id="textHeader">Test</h6>
+                            <p class="textClass">Banana Banana Banana Banana Banana Banana Banana Banana Banana Banana Banana</p>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="image-div">
+                            <i id="icon" class="icon rounded-circle fa-solid fa-phone fa-2xl"></i>
+                          </div>
+                          <div class="text-div">
+                            <h6 id="textHeader">Test</h6>
+                            <p class="textClass">Banana Banana Banana Banana Banana Banana Banana Banana Banana Banana Banana</p>
+                          </div>
+                        </div>
+                      </div>
+          
+                      </section>
+                      <!--Featured Car-->
+                      <section class="featured-car">
+                        <div class="containment">
+                          <h2 id="featured">Featured Cars</h2>
+                          <div class="row">
+                            <div class="col">
+                                    <div class="style-div">
+                                    <img class="img-fluid featuredcars rounded" alt="Responsive image" src="https://cdn.discordapp.com/attachments/1092285231689646112/1145560231854747699/chevrolet-bolt-ev.webp">
+                                    <div class="yes">
+                                      <p class="carinfo">Chevy Bolt</p>
+                                        <div class="row">
+                                          <i class="fa-solid fa-gas-pump col"></i>
+                                        <p class="col">259 mi</p>
+                                        <i class="fa-solid fa-hand-holding-dollar col"></i>
+                                        <p class="col">$50/day</p>
+                                    </div>
+                                        <div class="row">
+                                          <i class="fa-solid fa-person col"></i>
+                                        <p class="col">1-5</p>
+                                        <i class="fa-solid fa-bolt col"></i>
+                                        <p class="col">yes</p>
+                                    </div>
+                                    <div class="button-div">
+                                      <button type="button" class="btn btn-primary btn-sm">Rent Now</button>
+                                    </div>
+                                    </div>
+                                </div>
+                
+                            </div>
+                            <div class="col">
+                                    <div class="style-div">
+                                    <img class="img-fluid featuredcars rounded" alt="Responsive image" src="https://cdn.discordapp.com/attachments/1092285231689646112/1145560238104260661/tesla_model_3.webp">
+                                    <div class="yes">
+                                      <p class="carinfo">Telsa model 3</p>
+                                        <div class="row">
+                                          <i class="fa-solid fa-gas-pump col"></i>
+                                            <p class="col">333 mi</p>
+                                            <i class="fa-solid fa-hand-holding-dollar col"></i>
+                                            <p class="col">$80/day</p>
+                                        </div>
+                                            <div class="row">
+                                              <i class="fa-solid fa-person col"></i>
+                                            <p class="col">1-5</p>
+                                            <i class="fa-solid fa-bolt col"></i>
+                                            <p class="col">yes</p>
+                                        </div>
+                                        <div class="button-div">
+                                          <button type="button" class="btn btn-primary btn-sm">Rent Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                
+                            </div>
+                            <div class="col">
+                                    <div class="style-div">
+                                    <img class="img-fluid featuredcars rounded" alt="Responsive image" src="https://cdn.discordapp.com/attachments/1092285231689646112/1145560237131177984/hyundai-ioniq-6.webp">
+                                    <div class="yes">
+                                      <p class="carinfo">Hyundai ioniq 6</p>
+                                        <div class="row">
+                                          <i class="fa-solid fa-gas-pump col"></i>
+                                            <p class="col">270 mi</p>
+                                            <i class="fa-solid fa-hand-holding-dollar col"></i>
+                                            <p class="col">$60/day</p>
+                                        </div>
+                                            <div class="row">
+                                              <i class="fa-solid fa-person col"></i>
+                                            <p class="col">1-5</p>
+                                            <i class="fa-solid fa-bolt col"></i>
+                                            <p class="col">yes</p>
+                                        </div>
+                                        <div class="button-div">
+                                        <button type="button" class="btn btn-primary btn-sm">Rent Now</button>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                    <div class="style-div">
+                                    <img class="img-fluid featuredcars rounded" alt="Responsive image" src="https://cdn.discordapp.com/attachments/1092285231689646112/1145560237496086628/kia-ev6.webp">
+                                    <div class="yes">
+                                      <p class="carinfo">Kia EV 6</p>
+                                        <div class="row">
+                                          <i class="fa-solid fa-gas-pump col"></i>
+                                            <p class="col">310 mi</p>
+                                            <i class="fa-solid fa-hand-holding-dollar col"></i>
+                                            <p class="col">$55/day</p>
+                                        </div>
+                                            <div class="row">
+                                              <i class="fa-solid fa-person col"></i>
+                                            <p class="col">1-5</p>
+                                            <i class="fa-solid fa-bolt col"></i>
+                                            <p class="col">yes</p>
+                                        </div>
+                                        <div class="button-div">
+                                          <button type="button" class="btn btn-primary btn-sm">Rent Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                
+                            </div>
+                            <div class="col">
+                                    <div class="style-div">
+                                    <img class="img-fluid featuredcars rounded" alt="Responsive image" src="https://cdn.discordapp.com/attachments/1092285231689646112/1145560237777100821/nissan-leaf.webp">
+                                    <div class="yes">
+                                      <p class="carinfo">Nissan LEAF</p>
+                                        <div class="row">
+                                          <i class="fa-solid fa-gas-pump col"></i>
+                                            <p class="col">212 mi</p>
+                                            <i class="fa-solid fa-hand-holding-dollar col"></i>
+                                            <p class="col">$70/day</p>
+                                        </div>
+                                            <div class="row">
+                                              <i class="fa-solid fa-person col"></i>
+                                            <p class="col">1-5</p>
+                                            <i class="fa-solid fa-bolt col"></i>
+                                            <p class="col">yes</p>
+                                        </div>
+                                        <div class="button-div">
+                                          <button type="button" class="btn btn-primary btn-sm">Rent Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                
+                            </div>
+                            <div class="col">
+                                    <div class="style-div">
+                                    <img class="img-fluid featuredcars rounded" alt="Responsive image" src="https://cdn.discordapp.com/attachments/1092285231689646112/1145560238485950534/volkswagen-id-4.webp">
+                                    <div class="yes">
+                                      <p class="carinfo">Volkswagen ID.4</p>
+                                        <div class="row">
+                                          <i class="fa-solid fa-gas-pump col"></i>
+                                            <p class="col">275 mi</p>
+                                            <i class="fa-solid fa-hand-holding-dollar col"></i>
+                                            <p class="col">$75/day</p>
+                                        </div>
+                                            <div class="row">
+                                              <i class="fa-solid fa-person col"></i>
+                                            <p class="col">1-5</p>
+                                            <i class="fa-solid fa-bolt col"></i>
+                                            <p class="col">yes</p>
+                                        </div>
+                                        <div class="button-div">
+                                          <button type="button" class="btn btn-primary btn-sm">Rent Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                      </section>
+                      <script src="logic.js"></script>    
+                      <section class="section-carousel">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <div id="container-of-review">
+                              <div id="image-carousel-container">
+                              <img src="https://cdn.discordapp.com/attachments/1092285231689646112/1145859739553636422/person_2.webp" class="d-block w-100 rounded-circle img-fluid" alt="...">
+                              <div class="name-and-rating">
+                                <h3 id="name">Sarah</h3>
+                                <div class="rating">
+                                  <span class="fa fa-star checked">8.2/10</span>
+                                </div>
+                              </div>
+                            </div>
+                            <div id="text-review">
+                              <p class="carouselp">Great Service Got My Ride Fast!!</p>
+                            </div>
+                          </div>
+                          </div>
+                            <div class="carousel-item">
+                              <div id="container-of-review">
+                                <div id="image-carousel-container">
+                              <img src="https://cdn.discordapp.com/attachments/1092285231689646112/1145859739117432863/person_1.webp" class="d-block w-100 img-fluid rounded-circle" alt="...">
+                              <div class="name-and-rating">
+                                <h3 id="name">Jim</h3>
+                                <div class="rating">
+                                  <span class="fa fa-star checked">8.7/10</span>
+                                </div>
+                              </div>
+                              </div>
+                              <div id="text-review">
+                              <p class="carouselp">Lovely customer support, super</p>
+                            </div>
+                            </div>
+                            </div>
+                            <div class="carousel-item">
+                              <div id="container-of-review">
+                                <div id="image-carousel-container">
+                              <img src="https://cdn.discordapp.com/attachments/1092285231689646112/1145859740107284601/person_3.webp" class="d-block w-100 img-fluid rounded-circle" alt="...">
+                              <div class="name-and-rating">
+                                <h3 id="name">Bob</h3>
+                                <div class="rating">
+                                  <span class="fa fa-star checked">10/10</span>
+                                </div>
+                              </div>
+                              </div>
+                              <p class="carouselp">They Really Came Through When i needed it.</p>
+                              </div>
+                              </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+  </body>
+</html>
