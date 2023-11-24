@@ -98,67 +98,77 @@
     <!--Booking bar-->
     <div class="container">
       <div class="row justify-content-center">
-          <div class="col-sm d-flex justify-content-center ">
-              <div id="cardId" class="card">
-                  <div class="card-body">
-                      <h3 class="card-title">Rent Your Ride</h3>
-                      <form class="row">
-                          <div class="col-sm d-flex justify-content-center">
-                              <div class="select-container">
-                              <select class="form-select" id="carType" required>
-                                  <option value="chevy-bolt">Chevy Bolt</option>
-                                  <option value="model-3">Tesla Model 3</option>
-                                  <option value="ioniq">hyundai ioniq</option>
-                                  <option value="ev-6">Kia Ev 6</option>
-                              </select>
-                              <select class="form-select" id="Pickup-Location" required>
-                               <option value="pick-up location">Pick-Up Location</option>
-                              </select>
-                              <select class="form-select" id="Pickup-date" required>
-                                <option value="pick-up-date">Pickup-Date</option>
-                              </select>
-                              <select class="form-select" id="Dropoff-location" required>
-                                <option value="dropoff-location">Drop-Off Location</option>
-                              </select>
-                              <select class="form-select" id="Dropoff-date" required>
-                                <option value="dropoff-date">Drop-Off Date</option>
-                              </select>
-                            </div>
-                          </div>
-                        </div>
-                        </div>
-                        </div>
-                      </form>
-                    </div>
-                  </div> 
+        <div class="col-">
+          <div id="cardId" class="card">
+            <div class="card-body">
+              <h3 class="card-title">Rent Your Ride</h3>
+              <form
+                class="d-md-flex flex-md-row flex-column justify-content-between"
+              >
+                <div class="mb-3">
+                  <select class="form-select" id="carType" required>
+                    <option value="chevy-bolt">Chevy Bolt</option>
+                    <option value="model-3">Tesla Model 3</option>
+                    <option value="ioniq">Hyundai Ioniq</option>
+                    <option value="ev-6">Kia Ev 6</option>
+                  </select>
+                </div>
+                <div class="mb-3">
+                  <select class="form-select" id="Pickup-Location" required>
+                    <option value="pick-up location">Pick-Up Location</option>
+                  </select>
+                </div>
+                <div class="mb-3">
+                  <select class="form-select" id="Pickup-date" required>
+                    <option value="pick-up-date">Pickup-Date</option>
+                  </select>
+                </div>
+                <div class="mb-3">
+                  <select class="form-select" id="Dropoff-location" required>
+                    <option value="dropoff-location">Drop-Off Location</option>
+                  </select>
+                </div>
+                <div class="mb-3">
+                  <select class="form-select" id="Dropoff-date" required>
+                    <option value="dropoff-date">Drop-Off Date</option>
+                  </select>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
                       <!--about Us Section-->
                       <section class="aboutUs">
                         <h4 class="about">About Us</h4>
                       <div class="row">
                         <div class="col-xm col-xxl col-lg col-md">
                         <div class="image-div">
-                          <i id="icon"  class="icon rounded-circle fa-regular fa-thumbs-up fa-2xl"></i>
+                          <i id="icon"  class="bi bi-hand-thumbs-up-fill"></i>
+                          <span id="textHeader">Test</span>
                         </div>
                         <div class="text-div">
-                          <h6 id="textHeader">Test</h6>
                           <p class="textClass">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac neque ac erat scelerisque scelerisque.</p>
                         </div>
                         </div>
                         <div class="col-xm col-xxl col-lg col-md">
                           <div class="image-div">
-                            <i id="icon" class="icon rounded-circle fa-solid fa-award fa-2xl"></i>
+                            <i id="icon" class="bi bi-award-fill"></i>
+                            <span id="textHeader">Test</span>
                           </div>
                           <div class="text-div">
-                            <h6 id="textHeader">Test</h6>
+                            
                             <p class="textClass">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac neque ac erat scelerisque scelerisque.</p>
                           </div>
                         </div>
                         <div class="col-xm col-xxl col-lg col-md">
                           <div class="image-div">
-                            <i id="icon" class="icon rounded-circle fa-solid fa-map-location-dot fa-2xl"></i>
+                            <i id="icon" class="bi bi-globe-americas"></i>
+                            <span id="textHeader">Test</span>
                           </div>
                           <div class="text-div">
-                            <h6 id="textHeader">Test</h6>
+                            
                             <p class="textClass">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac neque ac erat scelerisque scelerisque.</p>
                           </div>
                         </div>
@@ -166,28 +176,31 @@
                       <div class="row">
                         <div class="col-xm col-xxl col-lg col-md">
                           <div class="image-div">
-                            <i id="icon" class="icon rounded-circle fa-solid fa-baby-carriage fa-2xl"></i>
+                            <i id="icon" class="bi bi-bell-fill"></i>
+                            <span id="textHeader">Test</span>
                           </div>
                         <div class="text-div">
-                          <h6 id="textHeader">Test</h6>
+                          
                           <p class="textClass">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac neque ac erat scelerisque scelerisque.</p>
                         </div>
                         </div>
                         <div class="col-xm col-xxl col-lg col-md">
                           <div class="image-div">
-                            <i id="icon" class="icon rounded-circle fa-solid fa-plug fa-2xl"></i>
+                            <i id="icon" class="bi bi-plug-fill"></i>
+                            <span id="textHeader">Test</span>
                           </div>
                           <div class="text-div">
-                            <h6 id="textHeader">Test</h6>
+                            
                             <p class="textClass">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac neque ac erat scelerisque scelerisque.</p>
                           </div>
                         </div>
                         <div class="col-xm col-xxl col-lg col-md">
                           <div class="image-div">
-                            <i id="icon" class="icon rounded-circle fa-solid fa-phone fa-2xl"></i>
+                            <i id="icon" class="bi bi-telephone-fill"></i>
+                            <span id="textHeader">Test</span>
                           </div>
                           <div class="text-div">
-                            <h6 id="textHeader">Test</h6>
+                            
                             <p class="textClass">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac neque ac erat scelerisque scelerisque.</p>
                           </div>
                         </div>
