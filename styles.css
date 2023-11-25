@@ -1,8 +1,34 @@
 html,
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  z-index: 3 !important;
 }
+
+a {
+  text-decoration: none;
+  color: rgba(34, 54, 69, 0.7);
+  font-weight: 500;
+}
+#hover:hover {
+  color: white;
+}
+.container-fluid {
+  background-color: lightblue;
+  padding-top: 0px;
+  position: relative;
+}
+#container-Text {
+  background-color: lightblue;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20em;
+  padding-top: 5em;
+}
+.navbar-expand-lg {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
 .car-container {
   display: flex;
   justify-content: center;
@@ -11,6 +37,13 @@ body {
 #currentCar {
   width: 40rem;
   height: 20rem;
+  z-index: 4;
+  position: absolute;
+  margin-bottom: 15em;
+}
+#cardId {
+  margin-top: 3em;
+  margin-bottom: 3em;
 }
 .about {
   font-size: 2.5em;
